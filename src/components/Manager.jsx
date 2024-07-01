@@ -117,21 +117,6 @@ const Manager = () => {
 
   return (
     <>
-      <ToastContainer
-        position="top-left"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-        transition="Bounce"
-      />
-      <ToastContainer />
-
       <div className="absolute inset-0 -z-10 overflow-auto h-[100vh] w-full bg-white [background:radial-gradient(125%_125%_at_50%_40%,#fff_40%,#63e_100%)]">
         <div className="px-4 py-8 flex flex-col gap-24">
           <div className="upper md:px-44 lg:px-56 xl:px-32 mt-5">
